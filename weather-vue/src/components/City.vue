@@ -8,7 +8,7 @@
     </main>
 </template>
 <script>
-
+import { format, render, cancel, register } from 'timeago.js';
 
 export default {
     name: "MaVille",

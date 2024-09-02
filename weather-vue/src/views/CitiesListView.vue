@@ -12,7 +12,7 @@
 </template>
 <script>
 import MaVille from '../components/City.vue'
-
+import { format, render, cancel, register } from 'timeago.js';
 export default {
 
     components: { MaVille },
