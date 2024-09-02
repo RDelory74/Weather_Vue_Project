@@ -17,7 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">A Propos</RouterLink>
-        <RouterLink to="/liste">Liste Villes</RouterLink>
+        <RouterLink to="/villes">Liste Villes</RouterLink>
 
       </nav>
     </div>
@@ -50,6 +50,7 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  border-radius: 5%;
 }
 
 nav {
@@ -86,7 +87,7 @@ nav a:first-of-type {
 
   .logo {
     margin: 0 2rem 0 0;
-    border-radius: 5%;
+ 
   }
 
   header .wrapper {

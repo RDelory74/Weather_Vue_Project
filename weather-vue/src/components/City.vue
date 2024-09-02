@@ -1,21 +1,37 @@
 <template>
     <main>
-        <h1>{{ titreBoutton }}</h1>
-        <ul>
-            <li v-for="(city, index) in cities" :key="index">
-                <MaVille :name="city.name" :weather="city.weather" :temperature="city.temperature"
-                    :updatedAt="city.updatedAt" :population="city.population" />
-            </li>
-        </ul>
-
+        <h2>{{ name }}</h2>
+        <p>Météo : {{ weather }}</p>
+        <p>Température : {{ temperature }}°C</p>
+        <p>Dernière mise à jour : {{ new Date(updatedAt).toLocaleString() }}</p>
+        <p>Population : {{ population }} Habitants</p>
     </main>
 </template>
 <script>
-import MaVille from '../components/City.vue'
+
 
 export default {
-
-    components: { MaVille },
+    name: "MaVille",
+    props: {
+        cities: {
+            type: Object
+        },
+        population: {
+            type: Number
+        },
+        name: {
+            type: String
+        },
+        weather: {
+            type: String
+        },
+        temperature: {
+            type: Number
+        },
+        updatedAt: {
+            type: String
+        }
+    },
     data() {
         return {
             titreBoutton: "Météo - Liste des villes",
@@ -42,16 +58,9 @@ export default {
                     population: 65000
                 }
             ]
+
         }
     },
 }
 </script>
-<style scoped>
-li{
-    list-style: none;
-}
-</style>
-
-        <!-- <MaVille v-for="(city) in cities" :cities="cities" />-->
-        <!--:population="population" :name="name" :weather="weather" :temperature="temperature" -->
-        <!--<div><span v-for="item in cart">{{ item }},</span></div-->
+<style></style>
