@@ -1,0 +1,144 @@
+{ 
+    "results":[
+    {
+        "name": "Paris",
+        "weather": "Ensoleillé",
+        "temperature": 23.0,
+        "updatedAt": "2024.12.05",
+        "population": 2140526
+    },
+    {
+        "name": "Marseille",
+        "weather": "Peu nuageux",
+        "temperature": 21.5,
+        "updatedAt": "2024.12.05",
+        "population": 861635
+    },
+    {
+        "name": "Lyon",
+        "weather": "Nuageux",
+        "temperature": 19.0,
+        "updatedAt": "2024.12.05",
+        "population": 513275
+    },
+    {
+        "name": "Toulouse",
+        "weather": "Ensoleillé",
+        "temperature": 24.0,
+        "updatedAt": "2024.12.05",
+        "population": 479553
+    },
+    {
+        "name": "Nice",
+        "weather": "Ensoleillé",
+        "temperature": 25.5,
+        "updatedAt": "2024.12.05",
+        "population": 342295
+    },
+    {
+        "name": "Nantes",
+        "weather": "Peu nuageux",
+        "temperature": 18.5,
+        "updatedAt": "2024.12.05",
+        "population": 309346
+    },
+    {
+        "name": "Strasbourg",
+        "weather": "Pluvieux",
+        "temperature": 16.0,
+        "updatedAt": "2024.12.05",
+        "population": 280966
+    },
+    {
+        "name": "Montpellier",
+        "weather": "Ensoleillé",
+        "temperature": 26.0,
+        "updatedAt": "2024.12.05",
+        "population": 285121
+    },
+    {
+        "name": "Bordeaux",
+        "weather": "Peu nuageux",
+        "temperature": 20.0,
+        "updatedAt": "2024.12.05",
+        "population": 257068
+    },
+    {
+        "name": "Lille",
+        "weather": "Nuageux",
+        "temperature": 17.5,
+        "updatedAt": "2024.12.05",
+        "population": 232440
+    },
+    {
+        "name": "Rennes",
+        "weather": "Peu nuageux",
+        "temperature": 19.5,
+        "updatedAt": "2024.12.05",
+        "population": 216815
+    },
+    {
+        "name": "Reims",
+        "weather": "Nuageux",
+        "temperature": 18.0,
+        "updatedAt": "2024.12.05",
+        "population": 182211
+    },
+    {
+        "name": "Le Havre",
+        "weather": "Pluvieux",
+        "temperature": 16.5,
+        "updatedAt": "2024.12.05",
+        "population": 170147
+    },
+    {
+        "name": "Saint-Étienne",
+        "weather": "Nuageux",
+        "temperature": 17.0,
+        "updatedAt": "2024.12.05",
+        "population": 173089
+    },
+    {
+        "name": "Toulon",
+        "weather": "Ensoleillé",
+        "temperature": 22.5,
+        "updatedAt": "2024.12.05",
+        "population": 176198
+    },
+    {
+        "name": "Angers",
+        "weather": "Peu nuageux",
+        "temperature": 18.5,
+        "updatedAt": "2024.12.05",
+        "population": 152960
+    },
+    {
+        "name": "Grenoble",
+        "weather": "Nuageux",
+        "temperature": 17.0,
+        "updatedAt": "2024.12.05",
+        "population": 158454
+    },
+    {
+        "name": "Dijon",
+        "weather": "Pluvieux",
+        "temperature": 16.0,
+        "updatedAt": "2024.12.05",
+        "population": 155090
+    },
+    {
+        "name": "Nîmes",
+        "weather": "Ensoleillé",
+        "temperature": 23.5,
+        "updatedAt": "2024.12.05",
+        "population": 150672
+    },
+    {
+        "name": "Aix-en-Provence",
+        "weather": "Peu nuageux",
+        "temperature": 21.0,
+        "updatedAt": "2024.12.05",
+        "population": 143097
+    }
+]
+}

@@ -19,7 +19,7 @@ import { format, render, cancel, register } from 'timeago.js';
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">A Propos</RouterLink>
         <RouterLink to="/villes">Liste Villes</RouterLink>
-
+        <RouterLink to="/carte">Carte</RouterLink>
       </nav>
     </div>
   </header>

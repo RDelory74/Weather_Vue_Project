@@ -5,6 +5,9 @@
         <p>Température : {{ temperature }}°C</p>
         <p>Dernière mise à jour : {{ new Date(updatedAt).toLocaleString() }}</p>
         <p>Population : {{ population }} Habitants</p>
+        <p>latittude : {{ latitude }} </p>
+        <p>longitude : {{ longitude }} </p>
+        <p><br></p>
     </main>
 </template>
 <script>
@@ -30,6 +33,12 @@ export default {
         },
         updatedAt: {
             type: String
+        },
+        longitude: {
+            type:Number
+        },
+        latitude:{
+            type:Number
         }
     },
     data() {

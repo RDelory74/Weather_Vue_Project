@@ -5,19 +5,21 @@
         <p v-if="error" style="color: red;">Erreur : {{ error }}</p>
         <ul>
             <li v-for="(city, index) in cities" :key="index">
-                <MaVille :name="city.name" :weather="city.weather" :temperature="city.temperature"
-                    :updatedAt="city.updatedAt" :population="city.population" />
+                <MaVille :name="city.location.city" :weather="city.gender" :temperature="city.dob.age"
+                    :updatedAt="city.dob.date" :population="city.location.postcode" :latitude="city.location.coordinates.latitude" :longitude="city.location.coordinates.longitude" />
             </li>
         </ul>
+        <MaCarte/>
 
     </main>
 </template>
 <script>
 import axios from "axios"
 import MaVille from '../components/City.vue'
+import MaCarte from '../components/CitiesMap.vue'
 export default {
 
-    components: { MaVille },
+    components: { MaVille,MaCarte },
     data() {
         return {
             titreBoutton: "Météo - Liste des villes",

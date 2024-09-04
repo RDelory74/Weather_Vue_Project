@@ -26,6 +26,11 @@ const router = createRouter({
     path: '/ville',
     name: 'ville',
     component: () => import('../components/City.vue')
+    },
+    {
+    path: '/carte',
+    name: 'carte',
+    component: () => import('../components/CitiesMap.vue')
     }
   ]
 })
