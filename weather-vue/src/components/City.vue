@@ -40,7 +40,7 @@ export default {
                     name: 'Ville 1',
                     weather: 'Ensoleillé',
                     temperature: 22.0,
-                    updatedAt: new Date(),
+                    updatedAt: format(new Date(1544666010224)),
                     population: 65000
                 },
                 {
